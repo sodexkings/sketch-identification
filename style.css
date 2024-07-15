@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: aliceblue;
+    background-color: aquamarine;
+    
+}
+
+#show_sketch
+{
+    float: right;
+}
+canvas
+{
+    border: 5px solid azure;
+    border-radius: 20px;
+    animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px  paleturquoise;}
+    to {box-shadow: 1px 1px 38px blue;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
